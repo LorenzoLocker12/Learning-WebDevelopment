@@ -1,0 +1,35 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/style.css">
+    <title>Formulário Bootstrap</title>
+</head>
+<body class="background-image">
+    <div class="container mt-5">
+        <div class="row justify-content-end"> <!-- Alinha o formulário à direita -->
+            <div class="col-md-4 form-container"> <!-- Define o tamanho do formulário -->
+                <form>
+                    <div class="form-group">
+                        <img  class="margem" style="margin-bottom: 50px;"  src="./assets/usc.jpeg">
+                        <h4 style="margin-left: 40px" class="verm">Seja Bem-Vindo!</h4>
+                        <h6 style="margin-left: 35px" class="verm baixo">Por favor indentifique-se.</h6>
+                        
+                        <input type="text" class="form-control input-custom smaller-input" id="cpf" placeholder="Matricula, CPF ou E-Mail" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control input-custom smaller-input" id="senha" placeholder="Senha" required>
+                    </div>
+                    <p class="text-small">Esqueceu a senha?</p>
+                    <button  type="submit" class="btn btn-custom">Entrar</button>
+                    <hr style="margin-top: 50px;" />
+                    <p class="text-small2" style="margin-top: 10px;">Use seu E-mail, CPF ou Código de Matrícula para</p>
+                    <p class="text-small2">efetuar o login</p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
