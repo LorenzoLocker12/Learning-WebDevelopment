@@ -26,6 +26,5 @@ $("button").click(function(){
     // $("h1").fadeOut();
     // $("h1").show();
     // $("h1").slideUp();
-    $("h1").animate({opacity: })
 
  });
